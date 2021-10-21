@@ -76,8 +76,7 @@ a{
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.3rem;
-    color: #fff;
+    color: #ff3505;
     cursor: pointer;
     transition: 0.2s;
 }
@@ -102,7 +101,7 @@ a{
     text-align: center;
 }
 
-/* media queres */
+/* Stack the sections if the screen is too small */
 @media(max-width:780px){
     .grid-2{
         grid-template-columns: 1fr;
